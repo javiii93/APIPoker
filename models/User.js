@@ -32,7 +32,7 @@ const userSchema = mongoose.Schema({
         required: true,
         minLength: 7
     }, coins: {
-        type: number,
+        type: Number,
         default: 10000,
     },
    /* province: String,
